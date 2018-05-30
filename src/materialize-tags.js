@@ -3,8 +3,7 @@
     "use strict";
 
     var tabKey = 9,
-        enterKey = 13,
-        commaKey = 188;
+        enterKey = 13;
 
     /**
     * Default Configuration
@@ -20,7 +19,7 @@
         addOnBlur                   : true,
         maxTags                     : undefined,
         maxChars                    : undefined,
-        confirmKeys                 : [tabKey,enterKey, 44, commaKey],
+        confirmKeys                 : [tabKey,enterKey],
         onTagExists                 : onTagExists,
         trimValue                   : true,
         allowDuplicates             : false,
